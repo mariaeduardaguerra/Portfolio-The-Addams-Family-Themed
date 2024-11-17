@@ -1,0 +1,110 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  font-family: 'Creepster', cursive, sans-serif;
+  color: #fff; /* White text */
+  background-color: #000; /* Black background */
+}
+
+header {
+  background: #000; /* Black background for header */
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 2px solid #800000; /* Deep red border */
+}
+
+header h1 {
+  color: #fff; /* White text */
+  font-size: 3rem;
+  letter-spacing: 5px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff; /* White links */
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #800000; /* Deep red on hover */
+}
+
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #800000; /* Deep red headings */
+}
+
+.gallery {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallery .item {
+  width: 200px;
+  height: 200px;
+  background: #222; /* Dark gray for items */
+  color: #fff; /* White text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #800000; /* Deep red border */
+  transition: transform 0.3s, background 0.3s;
+}
+
+.gallery .item:hover {
+  transform: scale(1.1);
+  background: #800000; /* Deep red background on hover */
+}
+
+form input, form textarea, form button {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 2px solid #444; /* Dark gray borders */
+  background: #111; /* Black background for form fields */
+  color: #fff; /* White text */
+}
+
+form button {
+  background: #800000; /* Deep red button */
+  color: #fff; /* White text */
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background: #500000; /* Darker red on hover */
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #000; /* Black footer background */
+  color: #666; /* Light gray text */
+  font-size: 0.9rem;
+}
